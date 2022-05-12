@@ -7,6 +7,41 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-searchbar></ion-searchbar>
+  <ion-searchbar placeholder="Ex: O Hobbit" color="secondary"  showCancelButton="focus"></ion-searchbar>
+  <!--Primeiro Livro-->
+  <ion-item> <!-- Cada produto sera um item, então cada produto sera um ion-item-->
+
+    <ion-thumbnail slot="start"> <!-- A foto que vai ser mostrada -->
+      <img src="https://www.lojadobolseiro.com.br/uploads/images/2020/01/33-livro-a-queda-de-gondolin-j-r-r-tolkien-poster-33-1579485171.jpg">
+    </ion-thumbnail>
+
+    <ion-label>O Hobbit</ion-label> <!-- O titulo -->
+
+    <ion-badge color="secondary">R$22,99</ion-badge> <!-- O preço -->
+  </ion-item>
+
+  <!--Segundo Livro-->
+  <ion-item> <!-- Cada produto sera um item, então cada produto sera um ion-item-->
+
+    <ion-thumbnail slot="start"> <!-- A foto que vai ser mostrada -->
+      <img src="https://clcaruaru.files.wordpress.com/2017/03/coraline.jpg">
+    </ion-thumbnail>
+
+    <ion-label>Coraline</ion-label> <!-- O titulo -->
+
+    <ion-badge color="secondary">R$25,99</ion-badge> <!-- O preço -->
+  </ion-item>
+
+  <!--Terceiro Livro-->
+  <ion-item> <!-- Cada produto sera um item, então cada produto sera um ion-item-->
+
+    <ion-thumbnail slot="start"> <!-- A foto que vai ser mostrada -->
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81UsH2q8WqL.jpg">
+    </ion-thumbnail>
+
+    <ion-label>O Orfanato da Srta. Peregrine Para Crianças Peculiares</ion-label> <!-- O titulo -->
+
+    <ion-badge color="secondary">R$20,99</ion-badge> <!-- O preço -->
+  </ion-item>
 </ion-content>
 
